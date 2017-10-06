@@ -1,0 +1,73 @@
+.inputs {
+    margin: 2em auto;
+    text-align: center;
+}
+.input-containers {
+    height: 20em;
+    width: 100em;
+    background-color: lime;
+    border-style: dashed;
+    border-color: plum;
+    border-width: .30em;
+    margin: auto;
+    text-align: center;
+    color: plum;
+}
+input[type=number] {
+    border-style: solid;
+    border-color: plum;
+    border-width: .15em;
+    margin: auto;
+    color: plum;
+    
+}
+input::placeholder {
+    color: plum;
+    text-align: center;
+}
+#canvas {
+    width: 600px;
+    height: 600px;
+    background-color: plum;
+    position: absolute;
+    border-color: lime;
+    border-style: dashed;
+    border-width: .25em;
+    margin: .25em;
+}
+#side-panel {
+    height: 600px;
+    width: 600px;
+    background-color: plum;
+    position: absolute;
+    left: 650px;
+    border-color: lime;
+    border-style: dashed;
+    border-width: .25em;
+    color: lime;
+    font-size: 20px;
+    text-align: justify;
+    margin: .25em;
+}
+
+.Circle {
+    background-color: magenta;
+    border-radius: 50%;
+    position: absolute;
+}
+.Triangle {
+    position: absolute;
+    width: 0 !important;
+    height: 0 !important;
+    border-style: solid;
+    border-color: transparent transparent transparent purple;
+    
+}
+.Rectangle {
+    background-color: violet;
+    position: absoulute;
+}
+.Square {
+    background-color: indigo;
+    position: absolute;
+}

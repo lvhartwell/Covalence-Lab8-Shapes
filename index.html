@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="http://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="scripts.js"></script>
+    <style></style>
+    <link type="text/css" rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="input-containers">
+        <div class ="inputs">
+            <label for="rlength">Rectangle Length:</label>
+            <input id="rlength" type="number">
+            <label for="rwidth">Rectangle Width:</label>
+            <input id="rwidth" type="number">
+            <button onclick="makeRectangle()">Make Rectangle</button>
+        </div>
+        <div class="inputs">
+            <label for="sSide">Square Sides</label>
+            <input id="sSide" type="number">
+            <button onclick="makeSquare()">Make Square</button>
+        </div>
+        <div class="inputs">
+            <label for="cRadius">Circle Radius</label>
+            <input id="cRadius" type="number">
+            <button onclick="makeCircle()">Make Circle</button>
+        </div>
+        <div class="inputs">
+            <label for="tHeight">Triangle Height</label>
+            <input id="tHeight" type="number">
+            <button onclick="makeTriangle()">Make Triangle</button>
+        </div>
+    </div>
+    <div id="canvas"></div>
+    <div id="side-panel">
+        <label for="name">Shape Name:</label>
+        <h3 id="name"></h3>
+        <label for="name">Width:</label>
+        <h3 id="width"></h3>
+        <label for="name">Height:</label>
+        <h3 id="height"></h3>
+        <label for="name">Radius:</label>
+        <h3 id="radius"></h3>
+        <label for="name">Area:</label>
+        <h3 id="area"></h3>
+        <label for="perimeter">Perimeter:</label>
+        <h3 id="perimeter"></h3>
+        
+    </div>
+    
+</body>
+</html>
